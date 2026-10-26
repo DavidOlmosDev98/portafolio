@@ -6,7 +6,7 @@ import { LanguageProvider } from "@/core/i18n/LanguageProvider";
 import { LOCALE_COOKIE, resolveLocale } from "@/core/i18n/locale";
 
 export const metadata: Metadata = {
-  title: "OlmosOS Enterprise 8",
+  title: "David Olmos | Software Engineer",
   description:
     "An interactive Linux-inspired portfolio for Senior Software Engineer David Antonio Olmos Ruiz.",
 };
