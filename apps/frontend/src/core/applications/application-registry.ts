@@ -1,5 +1,7 @@
 import {
     AppWindow,
+    Globe,
+    LifeBuoy,
     BarChart3,
     BriefcaseBusiness,
     Boxes,
@@ -18,6 +20,16 @@ import type {
 } from "./application.types";
 
 export const APPLICATIONS: readonly PortfolioApplication[] = [
+    {
+        id: "browser", name: "Professional links", shortName: "Links",
+        description: "Visit my professional profiles.", icon: Globe, iconVariant: "orange",
+        pinnedToDock: false, desktopVisible: false, searchable: true,
+    },
+    {
+        id: "help", name: "OlmosOS Help", shortName: "Help",
+        description: "Learn how to explore the portfolio and use the terminal.", icon: LifeBuoy, iconVariant: "red",
+        pinnedToDock: false, desktopVisible: false, searchable: true,
+    },
     {
         id: "about",
         name: "About Me",

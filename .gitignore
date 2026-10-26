@@ -1,0 +1,6 @@
+# Local files and deployment credentials
+.DS_Store
+.env
+.env.*
+.vercel/
+*.pem

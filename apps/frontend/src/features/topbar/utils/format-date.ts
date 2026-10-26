@@ -1,5 +1,5 @@
-export function formatDesktopDate(date: Date): string {
-    return new Intl.DateTimeFormat("en-US", {
+export function formatDesktopDate(date: Date, locale: string = "en"): string {
+    return new Intl.DateTimeFormat(locale, {
         weekday: "short",
         month: "short",
         day: "numeric",

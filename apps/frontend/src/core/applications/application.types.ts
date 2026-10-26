@@ -1,6 +1,8 @@
 import type { LucideIcon } from "lucide-react";
 
 export type ApplicationId =
+    | "browser"
+    | "help"
     | "about"
     | "files"
     | "experience"
